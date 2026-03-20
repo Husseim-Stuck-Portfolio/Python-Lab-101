@@ -1,24 +1,26 @@
-#"generation_calculator"
+**Python Lab 101** — Core programming concepts: loops, conditionals, functions, parameters, debugging. Each snippet includes problem → solution → learnings. Berlin-based Data Analyst | Ex-Apple Maps GeoData Engineer.
 
-birth_year = input("Please provide your birth year")
+## 🎯 Generation Calculator
+**Live Demo:** Test your birth year → instant generation result
 
-def generation_calculator (year):
-    if year < 1949:
-        return "You are part of the Silent Generation"
+**Exercise:** Build function mapping birth years to generational cohorts with proper input validation and parameter passing (no globals!)
 
-    elif 1949 <= year <= 1968:
-         return "You are part of the Baby Boomer"
+### Generation Breakdown
+| Generation | Years | Characteristics |
+|------------|-------|-----------------|
+| **Silent Generation** | <1949 | WWII/Depression era. Disciplined, loyal, value stability, risk-averse. |
+| **Baby Boomers** | 1949-1968 | Post-war boom. Competitive, optimistic, workaholic, homeownership-focused. |
+| **Generation X** | 1969-1980 | Latchkey kids, MTV generation. Independent, skeptical, entrepreneurial, first tech-adopters. |
+| **Millennials** | 1981-1993 | Digital natives (pre-social media). Collaborative, purpose-driven, experience > possessions. |
+| **Gen Z** | 1994+ | TikTok generation, pandemic-shaped. Pragmatic, diverse, mental health-focused, entrepreneurial. |
 
-    elif 1969 <= year <= 1980:
-         return "You are part of the Generation X"
+```python
+# See generation_calculator.py → Clean functions, input validation, comprehensive conditionals
+birth_year = input("Enter birth year: ")
+print(generation_calculator(int(birth_year)))
+```
 
-    elif 1981 <= year <= 1993:
-         return "You are part of the Millenial"
+**What I learned:** Parameter passing > globals, input validation, if-elif chains, documentation standards.
 
-    elif year >= 1994:
-         return "You are part of the Gen Z"
 
-    else:
-        return "Your Generation still doesnt have a name"
-
-print(generation_calculator (int(birth_year)))
+**SEO Keywords:** Python portfolio, data analytics bootcamp, Ironhack Berlin, programming fundamentals, code snippets, data analyst portfolio, Python functions, Berlin tech jobs
