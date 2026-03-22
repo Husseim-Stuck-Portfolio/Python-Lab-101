@@ -1,6 +1,6 @@
 **Python Lab 101** — Core programming concepts: loops, conditionals, functions, parameters, debugging. Each snippet includes problem → solution → learnings. Berlin-based Data Analyst | Ex-Apple Maps GeoData Engineer.
 
-## 🎯 Generation Calculator
+##  Generation Calculator
 **Live Demo:** Test your birth year → instant generation result
 
 **Exercise:** Build function mapping birth years to generational cohorts with proper input validation and parameter passing (no globals!)
